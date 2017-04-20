@@ -50,6 +50,7 @@
 		6E0D429F1EA8DA7E005E07B8 /* Ranger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ranger.cpp; sourceTree = "<group>"; };
 		6E0D42A11EA8DAD9005E07B8 /* Ranger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ranger.h; sourceTree = "<group>"; };
 		6E0D42A21EA8DBA6005E07B8 /* Warrior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Warrior.cpp; sourceTree = "<group>"; };
+		6E0D42A41EA8DBFD005E07B8 /* Warrior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 				6E0D429E1EA8D9DD005E07B8 /* Paladin.h */,
 				6E0D42A11EA8DAD9005E07B8 /* Ranger.h */,
 				6E0D42A21EA8DBA6005E07B8 /* Warrior.cpp */,
+				6E0D42A41EA8DBFD005E07B8 /* Warrior.h */,
 			);
 			path = Project3;
 			sourceTree = "<group>";
