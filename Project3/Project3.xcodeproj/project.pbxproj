@@ -41,6 +41,7 @@
 		6E0D42961EA8D0E4005E07B8 /* Guild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guild.h; sourceTree = "<group>"; };
 		6E0D42971EA8D346005E07B8 /* Guild.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Guild.cpp; sourceTree = "<group>"; };
 		6E0D42991EA8D86F005E07B8 /* Mage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mage.cpp; sourceTree = "<group>"; };
+		6E0D429B1EA8D8C3005E07B8 /* Mage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 				6E0D42961EA8D0E4005E07B8 /* Guild.h */,
 				6E0D42971EA8D346005E07B8 /* Guild.cpp */,
 				6E0D42991EA8D86F005E07B8 /* Mage.cpp */,
+				6E0D429B1EA8D8C3005E07B8 /* Mage.h */,
 			);
 			path = Project3;
 			sourceTree = "<group>";
