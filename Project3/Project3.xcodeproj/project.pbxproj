@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E0D42851EA8CD40005E07B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42841EA8CD40005E07B8 /* main.cpp */; };
 		6E0D428D1EA8CE77005E07B8 /* Folder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D428C1EA8CE77005E07B8 /* Folder.cpp */; };
+		6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D428E1EA8CEEA005E07B8 /* filesmain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		6E0D42841EA8CD40005E07B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6E0D428B1EA8CE2C005E07B8 /* Folder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Folder.h; sourceTree = "<group>"; };
 		6E0D428C1EA8CE77005E07B8 /* Folder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Folder.cpp; sourceTree = "<group>"; };
+		6E0D428E1EA8CEEA005E07B8 /* filesmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filesmain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6E0D42841EA8CD40005E07B8 /* main.cpp */,
 				6E0D428B1EA8CE2C005E07B8 /* Folder.h */,
 				6E0D428C1EA8CE77005E07B8 /* Folder.cpp */,
+				6E0D428E1EA8CEEA005E07B8 /* filesmain.cpp */,
 			);
 			path = Project3;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0D42851EA8CD40005E07B8 /* main.cpp in Sources */,
+				6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */,
 				6E0D428D1EA8CE77005E07B8 /* Folder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
