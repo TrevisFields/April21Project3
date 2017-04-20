@@ -36,6 +36,7 @@
 		6E0D42911EA8CF65005E07B8 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
 		6E0D42931EA8D031005E07B8 /* Adventurer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Adventurer.cpp; sourceTree = "<group>"; };
 		6E0D42951EA8D075005E07B8 /* Adventurer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
+		6E0D42961EA8D0E4005E07B8 /* Guild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guild.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 				6E0D42911EA8CF65005E07B8 /* File.cpp */,
 				6E0D42931EA8D031005E07B8 /* Adventurer.cpp */,
 				6E0D42951EA8D075005E07B8 /* Adventurer.h */,
+				6E0D42961EA8D0E4005E07B8 /* Guild.h */,
 			);
 			path = Project3;
 			sourceTree = "<group>";
