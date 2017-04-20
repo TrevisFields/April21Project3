@@ -12,6 +12,7 @@
 		6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D428E1EA8CEEA005E07B8 /* filesmain.cpp */; };
 		6E0D42921EA8CF65005E07B8 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42911EA8CF65005E07B8 /* File.cpp */; };
 		6E0D42941EA8D031005E07B8 /* Adventurer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42931EA8D031005E07B8 /* Adventurer.cpp */; };
+		6E0D42981EA8D346005E07B8 /* Guild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42971EA8D346005E07B8 /* Guild.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		6E0D42931EA8D031005E07B8 /* Adventurer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Adventurer.cpp; sourceTree = "<group>"; };
 		6E0D42951EA8D075005E07B8 /* Adventurer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
 		6E0D42961EA8D0E4005E07B8 /* Guild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guild.h; sourceTree = "<group>"; };
+		6E0D42971EA8D346005E07B8 /* Guild.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Guild.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				6E0D42931EA8D031005E07B8 /* Adventurer.cpp */,
 				6E0D42951EA8D075005E07B8 /* Adventurer.h */,
 				6E0D42961EA8D0E4005E07B8 /* Guild.h */,
+				6E0D42971EA8D346005E07B8 /* Guild.cpp */,
 			);
 			path = Project3;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0D42851EA8CD40005E07B8 /* main.cpp in Sources */,
+				6E0D42981EA8D346005E07B8 /* Guild.cpp in Sources */,
 				6E0D42921EA8CF65005E07B8 /* File.cpp in Sources */,
 				6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */,
 				6E0D42941EA8D031005E07B8 /* Adventurer.cpp in Sources */,
