@@ -14,6 +14,7 @@
 		6E0D42941EA8D031005E07B8 /* Adventurer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42931EA8D031005E07B8 /* Adventurer.cpp */; };
 		6E0D42981EA8D346005E07B8 /* Guild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42971EA8D346005E07B8 /* Guild.cpp */; };
 		6E0D429A1EA8D86F005E07B8 /* Mage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42991EA8D86F005E07B8 /* Mage.cpp */; };
+		6E0D429D1EA8D985005E07B8 /* Paladin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D429C1EA8D985005E07B8 /* Paladin.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		6E0D42971EA8D346005E07B8 /* Guild.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Guild.cpp; sourceTree = "<group>"; };
 		6E0D42991EA8D86F005E07B8 /* Mage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mage.cpp; sourceTree = "<group>"; };
 		6E0D429B1EA8D8C3005E07B8 /* Mage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mage.h; sourceTree = "<group>"; };
+		6E0D429C1EA8D985005E07B8 /* Paladin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paladin.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				6E0D42971EA8D346005E07B8 /* Guild.cpp */,
 				6E0D42991EA8D86F005E07B8 /* Mage.cpp */,
 				6E0D429B1EA8D8C3005E07B8 /* Mage.h */,
+				6E0D429C1EA8D985005E07B8 /* Paladin.cpp */,
 			);
 			path = Project3;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				6E0D429A1EA8D86F005E07B8 /* Mage.cpp in Sources */,
 				6E0D42921EA8CF65005E07B8 /* File.cpp in Sources */,
 				6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */,
+				6E0D429D1EA8D985005E07B8 /* Paladin.cpp in Sources */,
 				6E0D42941EA8D031005E07B8 /* Adventurer.cpp in Sources */,
 				6E0D428D1EA8CE77005E07B8 /* Folder.cpp in Sources */,
 			);
