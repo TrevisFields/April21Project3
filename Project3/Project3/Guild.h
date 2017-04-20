@@ -10,7 +10,7 @@
 class Guild
 {
 private:
-  std::vector<std::shared_ptr<Mages>>_mages;
+  std::vector<std::shared_ptr<Mage>>_mages;
   std::vector<std::shared_ptr<Paladin>>_paladins;
   std::vector<std::shared_ptr<Ranger>>_rangers;
   std::vector<std::shared_ptr<Warrior>>_warriors;

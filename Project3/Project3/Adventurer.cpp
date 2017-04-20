@@ -5,7 +5,7 @@ Adventurer::Adventurer()
   
 }
 
-Adventurrer::~Adventurer()
+Adventurer::~Adventurer()
 {
   
 }

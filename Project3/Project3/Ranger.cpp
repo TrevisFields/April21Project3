@@ -1,4 +1,4 @@
-#include "Rnager.h"
+#include "Ranger.h"
 
 Ranger::Ranger(std::string name) : _name(name)
 {

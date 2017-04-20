@@ -12,7 +12,7 @@ private:
   
 public:
   Folder(std::string name);
-  Folder::Folder();
+  Folder::Folder();//Error code
   ~Folder();
   
   std::string getName()

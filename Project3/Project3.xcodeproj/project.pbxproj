@@ -17,6 +17,7 @@
 		6E0D429D1EA8D985005E07B8 /* Paladin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D429C1EA8D985005E07B8 /* Paladin.cpp */; };
 		6E0D42A01EA8DA7E005E07B8 /* Ranger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D429F1EA8DA7E005E07B8 /* Ranger.cpp */; };
 		6E0D42A31EA8DBA6005E07B8 /* Warrior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42A21EA8DBA6005E07B8 /* Warrior.cpp */; };
+		6E0D42A61EA8DCE1005E07B8 /* guildsmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42A51EA8DCE1005E07B8 /* guildsmain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		6E0D42A11EA8DAD9005E07B8 /* Ranger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ranger.h; sourceTree = "<group>"; };
 		6E0D42A21EA8DBA6005E07B8 /* Warrior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Warrior.cpp; sourceTree = "<group>"; };
 		6E0D42A41EA8DBFD005E07B8 /* Warrior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		6E0D42A51EA8DCE1005E07B8 /* guildsmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guildsmain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				6E0D42A11EA8DAD9005E07B8 /* Ranger.h */,
 				6E0D42A21EA8DBA6005E07B8 /* Warrior.cpp */,
 				6E0D42A41EA8DBFD005E07B8 /* Warrior.h */,
+				6E0D42A51EA8DCE1005E07B8 /* guildsmain.cpp */,
 			);
 			path = Project3;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				6E0D42A01EA8DA7E005E07B8 /* Ranger.cpp in Sources */,
 				6E0D42921EA8CF65005E07B8 /* File.cpp in Sources */,
 				6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */,
+				6E0D42A61EA8DCE1005E07B8 /* guildsmain.cpp in Sources */,
 				6E0D42A31EA8DBA6005E07B8 /* Warrior.cpp in Sources */,
 				6E0D429D1EA8D985005E07B8 /* Paladin.cpp in Sources */,
 				6E0D42941EA8D031005E07B8 /* Adventurer.cpp in Sources */,
