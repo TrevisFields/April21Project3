@@ -15,6 +15,7 @@
 		6E0D42981EA8D346005E07B8 /* Guild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42971EA8D346005E07B8 /* Guild.cpp */; };
 		6E0D429A1EA8D86F005E07B8 /* Mage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42991EA8D86F005E07B8 /* Mage.cpp */; };
 		6E0D429D1EA8D985005E07B8 /* Paladin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D429C1EA8D985005E07B8 /* Paladin.cpp */; };
+		6E0D42A01EA8DA7E005E07B8 /* Ranger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D429F1EA8DA7E005E07B8 /* Ranger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		6E0D429B1EA8D8C3005E07B8 /* Mage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mage.h; sourceTree = "<group>"; };
 		6E0D429C1EA8D985005E07B8 /* Paladin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paladin.cpp; sourceTree = "<group>"; };
 		6E0D429E1EA8D9DD005E07B8 /* Paladin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paladin.h; sourceTree = "<group>"; };
+		6E0D429F1EA8DA7E005E07B8 /* Ranger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ranger.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				6E0D42841EA8CD40005E07B8 /* main.cpp */,
+				6E0D429F1EA8DA7E005E07B8 /* Ranger.cpp */,
 				6E0D428B1EA8CE2C005E07B8 /* Folder.h */,
 				6E0D428C1EA8CE77005E07B8 /* Folder.cpp */,
 				6E0D428E1EA8CEEA005E07B8 /* filesmain.cpp */,
@@ -155,6 +158,7 @@
 				6E0D42851EA8CD40005E07B8 /* main.cpp in Sources */,
 				6E0D42981EA8D346005E07B8 /* Guild.cpp in Sources */,
 				6E0D429A1EA8D86F005E07B8 /* Mage.cpp in Sources */,
+				6E0D42A01EA8DA7E005E07B8 /* Ranger.cpp in Sources */,
 				6E0D42921EA8CF65005E07B8 /* File.cpp in Sources */,
 				6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */,
 				6E0D429D1EA8D985005E07B8 /* Paladin.cpp in Sources */,
