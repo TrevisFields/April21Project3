@@ -12,7 +12,7 @@ shared_ptr<Folder> NavigateToFolder(shared_ptr<Folder> currentFolder);
 
   //WOULD LIKE TO MAKE THIS CODE GO INTO THE MENU WITH OUT HAVING ALL THE CODE IN ONE PLACE
   //IN OTHER WORDS I WANT TO USE THIS CODE IN A MENU OF THE MAIN FUNCTION
-int main()
+int main()//remove int main and rewrite so that this code is used in the menu of the main program in main.cpp
 {
   auto currentFolder = make_shared<Folder>("Root");
   auto parentFolder = make_shared<Folder>();

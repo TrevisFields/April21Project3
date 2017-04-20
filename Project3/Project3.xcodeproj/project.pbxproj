@@ -11,6 +11,7 @@
 		6E0D428D1EA8CE77005E07B8 /* Folder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D428C1EA8CE77005E07B8 /* Folder.cpp */; };
 		6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D428E1EA8CEEA005E07B8 /* filesmain.cpp */; };
 		6E0D42921EA8CF65005E07B8 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42911EA8CF65005E07B8 /* File.cpp */; };
+		6E0D42941EA8D031005E07B8 /* Adventurer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D42931EA8D031005E07B8 /* Adventurer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		6E0D428E1EA8CEEA005E07B8 /* filesmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filesmain.cpp; sourceTree = "<group>"; };
 		6E0D42901EA8CF2F005E07B8 /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
 		6E0D42911EA8CF65005E07B8 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		6E0D42931EA8D031005E07B8 /* Adventurer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Adventurer.cpp; sourceTree = "<group>"; };
+		6E0D42951EA8D075005E07B8 /* Adventurer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				6E0D428E1EA8CEEA005E07B8 /* filesmain.cpp */,
 				6E0D42901EA8CF2F005E07B8 /* File.h */,
 				6E0D42911EA8CF65005E07B8 /* File.cpp */,
+				6E0D42931EA8D031005E07B8 /* Adventurer.cpp */,
+				6E0D42951EA8D075005E07B8 /* Adventurer.h */,
 			);
 			path = Project3;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				6E0D42851EA8CD40005E07B8 /* main.cpp in Sources */,
 				6E0D42921EA8CF65005E07B8 /* File.cpp in Sources */,
 				6E0D428F1EA8CEEA005E07B8 /* filesmain.cpp in Sources */,
+				6E0D42941EA8D031005E07B8 /* Adventurer.cpp in Sources */,
 				6E0D428D1EA8CE77005E07B8 /* Folder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
