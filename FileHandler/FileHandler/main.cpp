@@ -12,7 +12,7 @@ shared_ptr<File> NavigateToFile(shared_ptr<Folder> currentFolder);
 
   //WOULD LIKE TO MAKE THIS CODE GO INTO THE MENU WITH OUT HAVING ALL THE CODE IN ONE PLACE
   //IN OTHER WORDS I WANT TO USE THIS CODE IN A MENU OF THE MAIN FUNCTION
-int main()//remove int main and rewrite so that this code is used in the menu of the main program in main.cpp
+int main()
 {
   auto currentFolder = make_shared<Folder>("Root");
   auto parentFolder = make_shared<Folder>();
@@ -47,6 +47,7 @@ int main()//remove int main and rewrite so that this code is used in the menu of
 			 
 			 case 5:
 			 //IMPLEMENT THIS
+			 //UPDATE COMPLETED 
 			 {
 				auto newCurrent = NavigateToFile(currentFolder);
 				parentFolder = currentFolder;
@@ -94,15 +95,15 @@ shared_ptr<File> NavigateToFile(shared_ptr<Folder> currentFolder)
   return file;
 }
 
-void AddDisplayMenu(shared_ptr<Folder> currentFolder, shared_ptr<Folder> parent)
+void DisplayMenu(shared_ptr<Folder> currentFolder, shared_ptr<Folder> parent)
 {
   system("cls");
   cout << "Now in " << currentFolder -> getName() << endl;
   cout << "************************************************" << endl;
   cout << "1) List Folder Contents" << endl;
   cout << "2) Add File to Folder" << endl;
-  cout << "3) Open" << endl;
-  cout << "4) Add Subfolder" << endl;
+  cout << "3) Open SubFolder" << endl;
+  cout << "4) Add SubFolder" << endl;
   cout << "5) Search for File" << endl;
   if(parent != nullptr)
 	 {
