@@ -1,5 +1,3 @@
-  //LOOK AT THE GRADEBOOK EXAMPLE TO CHANGE THIS CODE UP SO THAT ALL OF THIS CODE IS CALLED IN THE MENU AND USED AFTER THE USER SELECTS THE OPTION TO GO THROUGH THE CODE IF POSSIBLE
-
 #include "Folder.h"
 #include <iostream>
 
@@ -55,7 +53,7 @@ int main()//remove int main and rewrite so that this code is used in the menu of
 				cout << endl << "Now showing file: " << newCurrent -> getName() << "!";
 				break;
 			 }
-
+			 
 			 break;
 			 
 			 case 6:
@@ -135,7 +133,3 @@ void AddFolderMenu(shared_ptr<Folder> currentFolder)
   auto newFolder = make_shared<Folder>(name);
   currentFolder -> AddFolder(newFolder);
 }
-
-
-  //WRITE CODE TO SEARCH FOR A FILE AND IMPLEMENT IT IN CASE 5
-

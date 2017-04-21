@@ -41,17 +41,17 @@ void Folder::AddFile(std::shared_ptr<File> newFile)
 }
 
 /*  //possibly need to remove this code
-std::shared_ptr<File> File::FindFile(std::string name)
-{
-  for(auto file : _files)
-	 {
-		if(file -> getName() == name)
-		{
-		  return file;
-		}
-	 }
-  return nullptr;
-}
+ std::shared_ptr<File> File::FindFile(std::string name)
+ {
+ for(auto file : _files)
+ {
+ if(file -> getName() == name)
+ {
+ return file;
+ }
+ }
+ return nullptr;
+ }
  */
 
 void Folder::AddFolder(std::shared_ptr<Folder> newFolder)
