@@ -40,6 +40,19 @@ void Folder::AddFile(std::shared_ptr<File> newFile)
   _files.push_back(newFile);
 }
 
+  //possibly need to remove this code
+std::shared_ptr<File> File::FindFile(std::string name)
+{
+  for(auto file : file)
+	 {
+		if(file -> getName() == name)
+		{
+		  return file;
+		}
+	 }
+  return nullptr;
+}
+
 void Folder::AddFolder(std::shared_ptr<Folder> newFolder)
 {
   _folders.push_back(newFolder);

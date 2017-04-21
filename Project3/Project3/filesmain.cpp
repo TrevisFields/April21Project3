@@ -9,6 +9,8 @@ void DisplayMenu(shared_ptr<Folder> currentFolder, shared_ptr<Folder> parent);
 void AddFileMenu(shared_ptr<Folder> currentFolder);
 void AddFolderMenu(shared_ptr<Folder> currentFolder);
 shared_ptr<Folder> NavigateToFolder(shared_ptr<Folder> currentFolder);
+  //Possible need to change or edit
+shared_ptr<File> NavigateToFile(shared_ptr<File> currentFile);
 
   //WOULD LIKE TO MAKE THIS CODE GO INTO THE MENU WITH OUT HAVING ALL THE CODE IN ONE PLACE
   //IN OTHER WORDS I WANT TO USE THIS CODE IN A MENU OF THE MAIN FUNCTION
@@ -47,6 +49,14 @@ int main()//remove int main and rewrite so that this code is used in the menu of
 			 
 			 case 5:
 			 //IMPLEMENT THIS
+			 {
+				auto newCurrent = NavigateToFile(currentFile);
+				parentFolder = currentFolder;
+				currentFolder = newCurrent;
+				cout << endl << "Now showing file: " << newCurrent -> getName() << "!";
+				break;
+			 }
+
 			 break;
 			 
 			 case 6:
@@ -63,7 +73,7 @@ int main()//remove int main and rewrite so that this code is used in the menu of
 		}//end of switch
 	 }//end of while
   system("pause");
-}//end of main(void)
+}//end of main
 
 shared_ptr<Folder> NavigateToFolder(shared_ptr<Folder> currentFolder)
 {
@@ -74,6 +84,17 @@ shared_ptr<Folder> NavigateToFolder(shared_ptr<Folder> currentFolder)
   
   auto folder = currentFolder -> FindFolder(name);
   return folder;
+}
+
+shared_ptr<File> NavigateToFile(shared_ptr<File> currentFile)
+{
+  cout << "File Name: ";
+  string name;
+  cin >> name;
+  cin.ignore();
+  
+  auto file = currentFile -> FindFile(name);
+  return file;
 }
 
 void AddDisplayMenu(shared_ptr<Folder> currentFolder, shared_ptr<Folder> parent)
@@ -116,7 +137,6 @@ void AddFolderMenu(shared_ptr<Folder> currentFolder)
   currentFolder -> AddFolder(newFolder);
 }
 
-void SearchFile()
-{
+
   //WRITE CODE TO SEARCH FOR A FILE AND IMPLEMENT IT IN CASE 5
-}
+
